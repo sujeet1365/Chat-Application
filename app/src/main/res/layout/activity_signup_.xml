@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:gravity="center"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_colour"
+    tools:context="com.kpf.sujeet.chat.Activity.Signup_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register here"
+            android:textSize="@dimen/size_title"
+            android:textColor="@color/google_btn_color"/>
+        <EditText
+            android:id="@+id/edt_signup_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_margin"
+            android:hint="Name"/>
+        <EditText
+            android:id="@+id/edt_signup_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_margin"
+            android:hint="Phone No."
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/edt_signup_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters"
+            android:layout_marginTop="@dimen/custom_margin"
+            android:hint="Country"/>
+        <EditText
+            android:id="@+id/edt_signup_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="@dimen/custom_margin"
+            android:hint="Email"/>
+        <EditText
+            android:id="@+id/edt_signup_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="@dimen/custom_margin"
+            android:hint="Password"/>
+        <EditText
+            android:id="@+id/edt_signup_cnfirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="@dimen/custom_margin"
+            android:hint="Password"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="@dimen/custom_margin"/>
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "131141439221",
+    "project_id": "chat-25f4b"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131141439221:android:356c3533a3b16a2f",
+        "android_client_info": {
+          "package_name": "com.kpf.sujeet.chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2hmFLkKsKPgHmpshBF2APqcOb9v17R1c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

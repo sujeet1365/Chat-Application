@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="action_settings">Signout</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">Signup</string>
+    <string name="facebook_app_id">360050977700851</string>
+    <string name="update_completion_msg">Successfully Updated</string>
+    <!--<string name="fb_login_protocol_scheme">fb827333874074103</string>-->
+    <string name="user_name">User Name</string>
+    <string name="signed_in_fmt">Chat</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="splash_screen_quote">Copyright &#169; Kedar Prasad Foundation </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_colour"
+    tools:context="com.kpf.sujeet.chat.Activity.Login_Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+       <LinearLayout
+           android:weightSum="1"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:paddingLeft="@dimen/activity_horizontal_margin"
+           android:gravity="center"
+           android:paddingRight="@dimen/activity_horizontal_margin"
+           android:paddingTop="@dimen/activity_vertical_margin">
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="0.1"
+               android:text="Login Here"
+               android:textSize="@dimen/size_title"
+               android:gravity="center_horizontal"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight=".92"
+               android:orientation="vertical">
+            <EditText
+                android:id="@+id/edt_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="username"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:layout_below="@id/edt_username"
+                android:layout_marginTop="@dimen/custom_margin"/>
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_login"
+                android:layout_below="@id/edt_password"
+                android:layout_marginTop="@dimen/custom_margin"/>
+            <LinearLayout
+                android:id="@+id/linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:layout_marginTop="@dimen/custom_margin"
+                android:layout_below="@id/btn_login"
+                android:weightSum="1">
+                <Button
+
+                    android:layout_weight="0.5"
+                    android:id="@+id/btn_signup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_signup"
+                    android:layout_below="@id/btn_login"
+                    android:layout_marginTop="@dimen/custom_margin"/>
+                <TextView
+                    android:id="@+id/txt_btn_forgotpswd"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot Password ?"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="@dimen/custom_margin"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"
+                android:layout_below="@id/linear_layout"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp">
+                <Button
+                    android:id="@+id/btn_fb_login"
+                    android:layout_below="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:drawableLeft="@drawable/com_facebook_button_icon_blue"
+                    android:paddingLeft="30dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/custom_margin"
+                    android:background="@color/com_facebook_button_background_color"
+                    android:text="Facebook Login"/>
+            </LinearLayout>
+
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/custom_margin"
+                android:layout_below="@id/btn_fb_login"/>
+           </LinearLayout>
+
+          </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

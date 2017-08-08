@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#123</color>
+    <color name="white">#fff</color>
+    <color name="colorPrimaryDark">#01020d</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fb_btn_color">#0968c7</color>
+    <color name="google_btn_color">#c40909</color>
+    <color name="background_Color">#7986CB</color>
+    <color name="chat_pic_background">#03124b</color>
+    <color name="chat_text_background">#f8f3f7f3</color>
+    <color name="transparent">#00000000</color>
+
+</resources>
